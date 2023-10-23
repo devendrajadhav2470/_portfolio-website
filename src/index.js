@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import App from "./App";
-
+import data from "./data";
+// import App from "./App";
+import ProjectCard from "./projectCard";
+import Intro from "./intro";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ProjectCard dataObject={data[0]} /> */}
+    <Intro />
   </React.StrictMode>
 );
 
